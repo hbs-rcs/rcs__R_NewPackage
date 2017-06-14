@@ -1,3 +1,10 @@
+#' Draw values from a beta distribution and plot the probability density
+#' function
+#'
+#' @param n number of observations to draw
+#' @param a non-negative alpha parameter of the beta distribution
+#' @param b non-negative beta parameter of the beta distribution
+#'
 #' @import ggplot2
 #' @export
 
