@@ -1,0 +1,12 @@
+Package: NewPackage
+Type: Package
+Title: Practice Building a Package
+Version: 0.1.0.9000
+Authors@R: person("Bob", "Freeman", email = "rfreeman@hbs.edu", role = c("aut", "cre"))
+Description: Practice building a package
+License: GPL >= 3
+Imports:
+  ggplot2
+Encoding: UTF-8
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)

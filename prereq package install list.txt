@@ -1,0 +1,455 @@
+
+R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> install.packages('devtools')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/devtools_1.13.2.tgz'
+Content type 'application/x-gzip' length 435397 bytes (425 KB)
+==================================================
+downloaded 425 KB
+
+
+The downloaded binary packages are in
+	/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T//RtmpUErKMu/downloaded_packages
+> install.packages('roxygen2')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘brew’, ‘desc’, ‘commonmark’
+
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/brew_1.0-6.tgz'
+Content type 'application/x-gzip' length 98071 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/desc_1.1.0.tgz'
+Content type 'application/x-gzip' length 167741 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/commonmark_1.2.tgz'
+Content type 'application/x-gzip' length 272580 bytes (266 KB)
+==================================================
+downloaded 266 KB
+
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/roxygen2_6.0.1.tgz'
+Content type 'application/x-gzip' length 447595 bytes (437 KB)
+==================================================
+downloaded 437 KB
+
+
+The downloaded binary packages are in
+	/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T//RtmpUErKMu/downloaded_packages
+> install.packages('testthat')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/testthat_1.0.2.tgz'
+Content type 'application/x-gzip' length 1222594 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+
+The downloaded binary packages are in
+	/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T//RtmpUErKMu/downloaded_packages
+> install.packages('rmarkdown')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/rmarkdown_1.5.tgz'
+Content type 'application/x-gzip' length 2213033 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+
+The downloaded binary packages are in
+	/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T//RtmpUErKMu/downloaded_packages
+> install.packages('iqssdevtools')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘iqssdevtools’ is not available (for R version 3.3.2)
+> install.packages('IQSSdevtools')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘IQSSdevtools’ is not available (for R version 3.3.2)
+> library(devtools)
+> install_github('iqss/iqssdevtools')
+Downloading GitHub repo iqss/iqssdevtools@master
+from URL https://api.github.com/repos/iqss/iqssdevtools/zipball/master
+Installing IQSSdevtools
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/covr_2.2.2.tgz'
+Content type 'application/x-gzip' length 99001 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+Installing covr
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/jsonlite_1.5.tgz'
+Content type 'application/x-gzip' length 1114976 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+Installing jsonlite
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e584d4aeb/jsonlite'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘jsonlite’ ...
+* DONE (jsonlite)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e53383b51/covr'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘covr’ ...
+* DONE (covr)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/digest_0.6.12.tgz'
+Content type 'application/x-gzip' length 148265 bytes (144 KB)
+==================================================
+downloaded 144 KB
+
+Installing digest
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e38901322/digest'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘digest’ ...
+* DONE (digest)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/git2r_0.18.0.tgz'
+Content type 'application/x-gzip' length 2213875 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+Installing git2r
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e57064888/git2r'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘git2r’ ...
+* DONE (git2r)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/yaml_2.1.14.tgz'
+Content type 'application/x-gzip' length 168128 bytes (164 KB)
+==================================================
+downloaded 164 KB
+
+Installing yaml
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e1808722e/yaml'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘yaml’ ...
+* DONE (yaml)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e71deb106/IQSS-IQSSdevtools-2c21dbf'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+ERROR: dependencies ‘gh’, ‘pkgdown’, ‘usethis’ are not available for package ‘IQSSdevtools’
+* removing ‘/Users/rfreeman/Library/R/3.3/library/IQSSdevtools’
+Installation failed: Command failed (1)
+> install_github('iqss/iqssdevtools')
+Downloading GitHub repo iqss/iqssdevtools@master
+from URL https://api.github.com/repos/iqss/iqssdevtools/zipball/master
+Installing IQSSdevtools
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e57542554/IQSS-IQSSdevtools-2c21dbf'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+ERROR: dependencies ‘gh’, ‘pkgdown’, ‘usethis’ are not available for package ‘IQSSdevtools’
+* removing ‘/Users/rfreeman/Library/R/3.3/library/IQSSdevtools’
+Installation failed: Command failed (1)
+> ?install_github
+> install.packages(c('gh','pkgdown','usethis'))
+Installing packages into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  packages ‘gh’, ‘pkgdown’, ‘usethis’ are not available (for R version 3.3.2)
+> install.packages('gh')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘gh’ is not available (for R version 3.3.2)
+> install_github('iqss/iqssdevtools', args="--recursive")
+Downloading GitHub repo iqss/iqssdevtools@master
+from URL https://api.github.com/repos/iqss/iqssdevtools/zipball/master
+Installing IQSSdevtools
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e59ffb5fb/IQSS-IQSSdevtools-2c21dbf'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests --recursive 
+
+Warning: unknown option ‘--recursive’
+ERROR: dependencies ‘gh’, ‘pkgdown’, ‘usethis’ are not available for package ‘IQSSdevtools’
+* removing ‘/Users/rfreeman/Library/R/3.3/library/IQSSdevtools’
+Installation failed: Command failed (1)
+> install.packages('usethis')
+Installing package into ‘/Users/rfreeman/Library/R/3.3/library’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘usethis’ is not available (for R version 3.3.2)
+> devtools::install_github("r-pkgs/usethis")
+Downloading GitHub repo r-pkgs/usethis@master
+from URL https://api.github.com/repos/r-pkgs/usethis/zipball/master
+Installing usethis
+Downloading GitHub repo r-pkgs/gh@master
+from URL https://api.github.com/repos/r-pkgs/gh/zipball/master
+Installing gh
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/ini_0.2.tgz'
+Content type 'application/x-gzip' length 10031 bytes
+==================================================
+downloaded 10031 bytes
+
+Installing ini
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e4cb980a4/ini'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘ini’ ...
+* DONE (ini)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e3ad5aabc/r-lib-gh-7c62b7a'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *source* package ‘gh’ ...
+** R
+** inst
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (gh)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e1273d35e/r-lib-usethis-6dca914'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *source* package ‘usethis’ ...
+** R
+** inst
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (usethis)
+> devtools::install_github("r-pkgs/gh")
+Skipping install of 'gh' from a github remote, the SHA1 (7c62b7a7) has not changed since last install.
+  Use `force = TRUE` to force installation
+> devtools::install_github("r-pkgs/pkgdown")
+Downloading GitHub repo r-pkgs/pkgdown@master
+from URL https://api.github.com/repos/r-pkgs/pkgdown/zipball/master
+Installation failed: Not Found (404)
+
+> devtools::install_github("hadley/pkgdown")
+Downloading GitHub repo hadley/pkgdown@master
+from URL https://api.github.com/repos/hadley/pkgdown/zipball/master
+Installing pkgdown
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/callr_1.0.0.tgz'
+Content type 'application/x-gzip' length 34113 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+Installing callr
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e44a6e91e/callr'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘callr’ ...
+* DONE (callr)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/highlight_0.4.7.1.tgz'
+Content type 'application/x-gzip' length 2498588 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+Installing highlight
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e6e6d749a/highlight'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘highlight’ ...
+* DONE (highlight)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/purrr_0.2.2.2.tgz'
+Content type 'application/x-gzip' length 172493 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+Installing purrr
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/Rcpp_0.12.11.tgz'
+Content type 'application/x-gzip' length 3114233 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+Installing Rcpp
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e269817b2/Rcpp'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘Rcpp’ ...
+* DONE (Rcpp)
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/tibble_1.3.3.tgz'
+Content type 'application/x-gzip' length 350788 bytes (342 KB)
+==================================================
+downloaded 342 KB
+
+Installing tibble
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/rlang_0.1.1.tgz'
+Content type 'application/x-gzip' length 460044 bytes (449 KB)
+==================================================
+downloaded 449 KB
+
+Installing rlang
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e399f6d57/rlang'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘rlang’ ...
+* DONE (rlang)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e343f2137/tibble'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘tibble’ ...
+* DONE (tibble)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e12a5db99/purrr'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘purrr’ ...
+* DONE (purrr)
+Skipping install of 'tibble' from a cran remote, the SHA1 (1.3.3) has not changed since last install.
+  Use `force = TRUE` to force installation
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/xml2_1.1.1.tgz'
+Content type 'application/x-gzip' length 832193 bytes (812 KB)
+==================================================
+downloaded 812 KB
+
+Installing xml2
+trying URL 'https://cran.cnr.berkeley.edu/bin/macosx/mavericks/contrib/3.3/BH_1.62.0-1.tgz'
+Content type 'application/x-gzip' length 9630884 bytes (9.2 MB)
+==================================================
+downloaded 9.2 MB
+
+Installing BH
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e685177d9/BH'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘BH’ ...
+* DONE (BH)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e6a55647e/xml2'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *binary* package ‘xml2’ ...
+* DONE (xml2)
+Downloading GitHub repo r-pkgs/pkgload@master
+from URL https://api.github.com/repos/r-pkgs/pkgload/zipball/master
+Installing pkgload
+Downloading GitHub repo r-pkgs/pkgbuild@master
+from URL https://api.github.com/repos/r-pkgs/pkgbuild/zipball/master
+Installing pkgbuild
+Downloading GitHub repo r-pkgs/callr@HEAD
+from URL https://api.github.com/repos/r-pkgs/callr/zipball/HEAD
+Skipping callr, it is already being installed.
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e2de5d994/r-lib-pkgbuild-8aab60b'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *source* package ‘pkgbuild’ ...
+** R
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (pkgbuild)
+Downloading GitHub repo hadley/rlang@master
+from URL https://api.github.com/repos/hadley/rlang/zipball/master
+Skipping rlang, it is already being installed.
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e227c79c/r-lib-pkgload-119cf9a'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *source* package ‘pkgload’ ...
+** R
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (pkgload)
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e420a4ff8/hadley-pkgdown-969badb'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests 
+
+* installing *source* package ‘pkgdown’ ...
+** R
+** inst
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (pkgdown)
+> 
+> install_github('iqss/iqssdevtools', args="--recursive")
+Downloading GitHub repo iqss/iqssdevtools@master
+from URL https://api.github.com/repos/iqss/iqssdevtools/zipball/master
+Installing IQSSdevtools
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/private/var/folders/f6/7y2cml0n7yn7q1xq3j3knp5xrrzr9k/T/RtmpUErKMu/devtools885e25a5dd07/IQSS-IQSSdevtools-2c21dbf'  \
+  --library='/Users/rfreeman/Library/R/3.3/library' --install-tests --recursive 
+
+Warning: unknown option ‘--recursive’
+* installing *source* package ‘IQSSdevtools’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (IQSSdevtools)
