@@ -28,6 +28,11 @@ density:
 
 for \eqn{a > 0}, \eqn{b > 0} and \eqn{0 \le x \le 1}.
 }
+\examples{
+# Draw from beta distribution with parameters a = 1 and b = 3
+beta_plot(a = 1, b = 3)
+
+}
 \seealso{
 \code{\link{rbeta}}, \code{\link{geom_density}}
 }
