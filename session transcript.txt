@@ -1,0 +1,79 @@
+R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+
+Restarting R session...
+
+> library(NewPackage)
+
+Restarting R session...
+
+> library(NewPackage)
+> n = 10000, a = 1, b = 3
+Error: unexpected ',' in "n = 10000,"
+> eval(n = 10000, a = 1, b = 3)
+Error in eval(n = 10000, a = 1, b = 3) :
+  unused arguments (n = 10000, a = 1, b = 3)
+> n = 10000
+> a = 1
+> b = 3
+> sims <- rbeta(n = n, shape1 = a, shape2 = b)
+>
+> # convert to data frame for ggplot2 compatability
+> sims <- data.frame(x = sims)
+>
+> # plot probability density function
+> ggplot(sims, aes(x)) +
++     geom_density() +
++     xlab("") + ylab("Probability Density Function") +
++     theme_bw()
+Error: could not find function "ggplot"
+> #' @import ggplot2
+> library('ggplot2')
+> sims <- rbeta(n = n, shape1 = a, shape2 = b)
+> # convert to data frame for ggplot2 compatability
+> sims <- data.frame(x = sims)
+> # plot probability density function
+> ggplot(sims, aes(x)) +
++ geom_density() +
++ xlab("") + ylab("Probability Density Function") +
++ theme_bw()
+> beta_plot()
+> beta_plot(a = 4)
+> beta_plot(a = 1, b = 2)
+> ?beta_plot
+No documentation for ‘beta_plot’ in specified packages and libraries:
+you could try ‘??beta_plot’
+
+Restarting R session...
+
+> library(NewPackage)
+> ?beta_plot
+
+Restarting R session...
+
+> library(NewPackage)
+
+Restarting R session...
+
+> library(NewPackage)
+> devtools::use_testthat()
+* Adding testthat to Suggests
+* Creating `tests/testthat`.
+* Creating `tests/testthat.R` from template.
+>
